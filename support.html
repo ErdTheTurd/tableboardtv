@@ -4,38 +4,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support · Tableboard TV</title>
-  <meta name="description" content="Get help with Tableboard TV.">
+  <meta name="description" content="Help hosting a table, joining from iPhone, or playing Eights on Tableboard TV.">
+  <meta name="theme-color" content="#1e3a28">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="index.html">Tableboard TV</a>
-      <nav class="nav" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="support.html" aria-current="page">Support</a>
-        <a href="privacy.html">Privacy</a>
-      </nav>
-    </div>
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./">
+        <img class="brand-mark" src="favicon.svg" width="28" height="28" alt="">
+        <span>Tableboard TV</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="./">Home</a></li>
+        <li><a href="support.html" aria-current="page">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="page">
-    <div class="wrap">
+  <main id="main" class="page">
+    <div class="page-narrow">
       <h1>Support</h1>
-      <p>Questions about hosting a table, joining from an iPhone, or playing Eights? Email us and we’ll help.</p>
-      <p><a href="mailto:support@tableboardtv.com">support@tableboardtv.com</a></p>
-      <p>Please include your Apple TV model and tvOS version when reporting a problem. Tableboard TV uses the local network; make sure phones and the TV are on the same Wi‑Fi.</p>
+      <p class="lede">Email <a href="mailto:support@tableboardtv.com">support@tableboardtv.com</a>. Include your Apple TV model and tvOS version if something fails.</p>
+
+      <h2>FAQ</h2>
+      <div class="faq">
+        <details>
+          <summary>How do players join?</summary>
+          <p>Start a table on Apple TV. A four-letter room code appears. On each iPhone, open the companion on the same Wi‑Fi, enter that code, and pick a name and color.</p>
+        </details>
+        <details>
+          <summary>Do I need an account?</summary>
+          <p>No. There is no sign-in. Names and colors exist only for that table session on the devices in the room.</p>
+        </details>
+        <details>
+          <summary>Why can’t a phone find the table?</summary>
+          <p>Phones and the Apple TV must be on the same local Wi‑Fi. Tableboard uses Bonjour local networking; guest networks and some AP isolation settings block discovery.</p>
+        </details>
+        <details>
+          <summary>What is Demo Table?</summary>
+          <p>On the TV alone, Demo Table seats bot players so you can try Eights without phones. Real friends still join through a hosted table and the room code.</p>
+        </details>
+        <details>
+          <summary>How do you play Eights?</summary>
+          <p>Match the discard’s suit or rank. Eights are wild and let you name the next suit. First player to empty their hand wins. Two to six players.</p>
+        </details>
+        <details>
+          <summary>Where are my cards shown?</summary>
+          <p>Only on your phone. The TV shows the shared felt — discard, draw pile count, and public seat info — not other players’ hands.</p>
+        </details>
+      </div>
     </div>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
-      <span>© Tableboard TV · tableboardtv.com</span>
-      <span>
-        <a href="support.html">Support</a>
-        ·
+    <div class="wrap footer-inner">
+      <p>&copy; 2026 Edward Dunn. Tableboard TV for Apple TV.</p>
+      <div class="footer-links">
         <a href="privacy.html">Privacy</a>
-      </span>
+        <a href="support.html">Support</a>
+        <a href="mailto:support@tableboardtv.com">support@tableboardtv.com</a>
+      </div>
     </div>
   </footer>
 </body>
