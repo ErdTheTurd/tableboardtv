@@ -3,93 +3,186 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tableboard TV</title>
-  <meta name="description" content="Board night on Apple TV. Private hands on every iPhone.">
+  <title>Tableboard TV — board night on Apple TV, private hands on every iPhone</title>
+  <meta name="description" content="The TV shows the shared table. Each iPhone holds your private hand. Join with a room code on the same Wi‑Fi. No accounts. First game: Eights. Coming to Apple TV.">
+  <link rel="canonical" href="https://erdtheturd.github.io/tableboardtv/">
+  <meta name="theme-color" content="#1e3a28">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tableboard TV">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://erdtheturd.github.io/tableboardtv/">
+  <meta property="og:title" content="Tableboard TV — board night on Apple TV">
+  <meta property="og:description" content="TV shows the table. Phones hold private hands. Room code on the same Wi‑Fi. No accounts.">
+  <meta property="og:image" content="https://erdtheturd.github.io/tableboardtv/images/tv-table.jpg">
+  <meta property="og:image:alt" content="Eights mid-game on Tableboard TV">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tableboard TV — board night on Apple TV">
+  <meta name="twitter:description" content="TV shows the table. Phones hold private hands. Room code on the same Wi‑Fi. No accounts.">
+  <meta name="twitter:image" content="https://erdtheturd.github.io/tableboardtv/images/tv-table.jpg">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="index.html">Tableboard TV</a>
-      <nav class="nav" aria-label="Primary">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-      </nav>
-    </div>
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="./" aria-current="page">
+        <img class="brand-mark" src="favicon.svg" width="28" height="28" alt="">
+        <span>Tableboard TV</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="./" aria-current="page">Home</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="main">
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-visual" aria-hidden="true">
+        <img src="images/tv-table.jpg" alt="" width="1600" height="900">
+      </div>
       <div class="wrap">
-        <h1 class="hero-brand">Tableboard TV</h1>
-        <p>Board night on the big screen. Each player keeps a private hand on their iPhone, connected over your local network.</p>
-        <a class="hero-cta" href="#how">See how it works</a>
+        <div class="hero-inner">
+          <p class="wordmark">Tableboard TV</p>
+          <h1>The table lives on the TV. Your hand stays on your phone.</h1>
+          <p class="lede">Host on Apple TV, join with a short room code on the same Wi‑Fi. No accounts.</p>
+          <div class="hero-cta">
+            <a class="btn-soon" href="#how">See how it works</a>
+            <p class="device-note">Coming to Apple TV</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="what">
+    <section class="section" id="how" aria-labelledby="how-title">
       <div class="wrap">
-        <h2>What it is</h2>
-        <p class="lede">Tableboard TV hosts the shared table on Apple TV. Nearby phones join as companions so everyone can see the game—and no one else can see your cards.</p>
-      </div>
-    </section>
-
-    <section class="section" id="how">
-      <div class="wrap">
-        <h2>How it works</h2>
-        <p class="lede">Three steps from empty living room to a full table.</p>
+        <p class="suit-rule" aria-hidden="true"><span>♠</span><span>♥</span><span>♦</span><span>♣</span></p>
+        <div class="section-head">
+          <h2 id="how-title">How a night works</h2>
+          <p>One Apple TV hosts. Every phone is a private hand. Everyone stays on the local network.</p>
+        </div>
         <ol class="steps">
           <li>
             <span class="num">1</span>
             <h3>Host on Apple TV</h3>
-            <p>Start a table. A short room code appears on the screen.</p>
+            <p>Open Tableboard TV and start a table. A four-letter room code appears on the screen.</p>
           </li>
           <li>
             <span class="num">2</span>
-            <h3>Join on iPhone</h3>
-            <p>Phones find the table on your local network and keep each hand private.</p>
+            <h3>Join from each iPhone</h3>
+            <p>On the same Wi‑Fi, open the companion, enter the room code, pick a name and color. No sign-in.</p>
           </li>
           <li>
             <span class="num">3</span>
-            <h3>Play together</h3>
-            <p>The TV shows the shared table. Phones show only your cards.</p>
+            <h3>Play the shared table</h3>
+            <p>The TV shows the felt, discard, and whose turn it is. Each phone shows only that player’s cards.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <section class="section" id="eights">
-      <div class="wrap game-block">
-        <div>
-          <h2>Eights</h2>
-          <p>The first game is Eights—the public-domain shedding classic often called Crazy Eights. Match suit or rank; eights are wild.</p>
-          <p>More original and public-domain tables are planned. Trademarked game names are not used.</p>
+    <section class="section" id="hand" aria-labelledby="hand-title">
+      <div class="wrap split">
+        <div class="split-copy">
+          <div class="section-head">
+            <h2 id="hand-title">Private hand on the phone</h2>
+            <p>Legal plays sit up; the rest dim. Draw when you can’t play. This mockup matches the companion layout — it is not a device screenshot.</p>
+          </div>
         </div>
-        <div class="felt-panel" aria-hidden="true">
-          <div class="mini-card back">TB</div>
-          <div class="mini-card face">8♥</div>
+        <div>
+          <figure class="phone-mock" aria-label="Drawn mockup of a fanned card hand on a phone. Not a product screenshot.">
+            <div class="phone-notch" aria-hidden="true"></div>
+            <div class="phone-screen">
+              <p class="phone-label">Your hand · Eights</p>
+              <div class="hand-fan" aria-hidden="true">
+                <div class="hand-card red"><span class="rank">Q</span><span class="suit">♥</span></div>
+                <div class="hand-card dim"><span class="rank">4</span><span class="suit">♦</span></div>
+                <div class="hand-card"><span class="rank">5</span><span class="suit">♠</span></div>
+                <div class="hand-card red"><span class="rank">8</span><span class="suit">♣</span></div>
+                <div class="hand-card dim"><span class="rank">J</span><span class="suit">♥</span></div>
+              </div>
+              <div class="draw-btn" aria-hidden="true">Draw</div>
+            </div>
+          </figure>
+          <p class="mock-note">HTML/CSS mockup of the companion hand — not a screenshot.</p>
         </div>
       </div>
     </section>
 
-    <section class="coming">
+    <section class="section" id="eights" aria-labelledby="eights-title">
+      <div class="wrap split reverse">
+        <div class="split-copy">
+          <div class="section-head">
+            <h2 id="eights-title">First game: Eights</h2>
+            <p>Public-domain Crazy Eights. Match suit or rank; eights are wild. Two to six players.</p>
+          </div>
+          <div class="felt-band">
+            <p>Host a real table for friends on the network, or run a Demo Table of bots on the TV alone while you try the rules.</p>
+            <p>More games are on the way. None of them are ready to name yet.</p>
+          </div>
+        </div>
+        <figure class="shot-frame">
+          <img src="images/tv-lobby.jpg" width="1600" height="900" alt="Tableboard TV lobby showing room code K7M2 and four seated players">
+          <figcaption class="shot-caption">Lobby on Apple TV — room code ready for phones on the same Wi‑Fi.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="shots" aria-labelledby="shots-title">
       <div class="wrap">
-        <span class="badge">Status</span>
-        <h2>Coming soon to Apple TV</h2>
-        <p>Tableboard TV is in outline development. Watch this space for updates—no release date to announce yet.</p>
+        <div class="section-head">
+          <h2 id="shots-title">On the big screen</h2>
+          <p>Real captures from the Apple TV app with demo data.</p>
+        </div>
+        <div class="shot-grid">
+          <figure class="shot-frame">
+            <img src="images/tv-home.jpg" width="1600" height="900" alt="Tableboard TV home screen with Host a Table and Demo Table buttons">
+            <figcaption class="shot-caption">Home — host a table or try a local demo.</figcaption>
+          </figure>
+          <figure class="shot-frame">
+            <img src="images/tv-table.jpg" width="1600" height="900" alt="Mid-game Eights table with discard pile and four players">
+            <figcaption class="shot-caption">Eights mid-game — shared discard and suit on the felt.</figcaption>
+          </figure>
+          <figure class="shot-frame">
+            <img src="images/tv-winner.jpg" width="1600" height="900" alt="Winner screen announcing Riley wins Eights">
+            <figcaption class="shot-caption">Winner — then play again or return home.</figcaption>
+          </figure>
+          <figure class="shot-frame">
+            <img src="images/tv-lobby.jpg" width="1600" height="900" alt="Lobby with room code and player seats">
+            <figcaption class="shot-caption">Lobby again — same room code the phones type in.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="status-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="status-title">Coming to Apple TV</h2>
+          <p>Tableboard TV is in active development. No App Store listing yet — check back here for updates.</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
-      <span>© Tableboard TV · tableboardtv.com</span>
-      <span>
-        <a href="support.html">Support</a>
-        ·
+    <div class="wrap footer-inner">
+      <p>&copy; 2026 Edward Dunn. Tableboard TV for Apple TV.</p>
+      <div class="footer-links">
         <a href="privacy.html">Privacy</a>
-      </span>
+        <a href="support.html">Support</a>
+        <a href="mailto:support@tableboardtv.com">support@tableboardtv.com</a>
+      </div>
     </div>
   </footer>
 </body>
